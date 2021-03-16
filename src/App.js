@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useEffect, useState} from "react";
+import NavBar from "./NavBar/NavBar.js"
+import Results from "./Results/Results.js"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  const [studentData, setStudentData] = useState(null);
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  function getData() {
+    fetch("./student-information.json", {
+      headers : {
+        "Content-Type": 'application/json', 
+        "Accept": "application/json",
+      }
+    })
+      .then((response) => {
+        console.log(response);
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data)
+        setStudentData(data);
+      });
+  }
+
+  return(
+    <div>
+      <NavBar />
+      {/* Pass Full JSON Data */}
+      {studentData && <Results data={studentData} />}
     </div>
   );
 }
