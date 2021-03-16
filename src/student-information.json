@@ -1,0 +1,28 @@
+[
+	{
+		"grade": 1,
+		"students": [
+			{
+				"name": "Alex B", 
+				"grade": "A+",
+			}, 
+			{
+				"name": "Tom H",
+				"grade": "A+",
+			}, 
+			{
+				"name": "Brian C", 
+				"grade": "A",
+			}
+		]
+	}, 
+	{
+		"grade": 2, 
+		"students": [
+			{
+				"name": "Bill B", 
+				"grade": "A+",
+			}
+		]
+	}
+]
