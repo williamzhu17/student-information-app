@@ -1,0 +1,33 @@
+table {
+    width: 80%;
+    margin-left: auto;
+}
+
+th {
+    padding: 20px;
+    font-size: 24px;
+    text-align: left;
+    color: darkblue;
+}
+
+td {
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.moreStudentData {
+    overflow: hidden;
+}
+
+.viewAllLink {
+    width: fit-content;
+    margin-left: 75%;
+    text-decoration: underline;
+    
+}
+
+.viewAllLink:hover {
+    cursor: pointer;
+    color: blue;
+}

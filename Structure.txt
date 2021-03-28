@@ -1,0 +1,9 @@
+index
+	App
+		NavBar
+		Results
+			SearchBar
+			Scores (contains all the components of the score list)
+				StudentScoreList (will determine grade)
+					StudentScoreHeading
+					StudentScore
