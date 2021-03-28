@@ -1,7 +1,7 @@
 import './App.css';
 import React, {useEffect, useState} from "react";
-import NavBar from "./NavBar/NavBar.js"
-import Results from "./Results/Results.js"
+import NavBar from "./navbar/NavBar.js"
+import Results from "./results/js/Results.js"
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
     <div>
       <NavBar />
       {/* Pass Full JSON Data */}
-      {studentData && <Results data={studentData} />}
+      {studentData === null ? <p>Loading</p> : <Results data={studentData} />}
     </div>
   );
 }
