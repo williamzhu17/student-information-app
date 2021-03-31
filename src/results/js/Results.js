@@ -5,7 +5,7 @@ import Scores from "./Scores.js";
 function Results(props) {
     return(
         <div>
-            <SearchBar />
+            <SearchBar data={props.data} />
             {/* Pass Full JSON Data */}
             <Scores data={props.data} />
         </div>

@@ -26,7 +26,7 @@ function StudentScore(props) {
             <table>
                 <tr>
                     <th>Name</th>
-                    <th>Grade</th>
+                    <th>Score</th>
                 </tr>
                 {studentList}
             </table>
