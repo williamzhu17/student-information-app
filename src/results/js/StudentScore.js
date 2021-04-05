@@ -7,9 +7,9 @@ function StudentScore(props) {
 
     let studentList = props.data.students.map((value, index) => {
         if (index < 3) {
-            return <tr><td>{value.name}</td><td>{value.score}</td></tr>
+            return <tr key={value.id}><td>{value.name}</td><td>{value.score}</td></tr>
         } else {
-            return viewAllClicked ? <tr className="moreStudentData"><td>{value.name}</td><td>{value.score}</td></tr> : null;
+            return viewAllClicked ? <tr className="moreStudentData" key={value.id}><td>{value.name}</td><td>{value.score}</td></tr> : null;
         }
     });
 
