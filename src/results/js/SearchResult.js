@@ -16,7 +16,7 @@ function SearchResult(props) {
 
             studentList.push(
                 name.toLowerCase().includes(searchValue) ? 
-                <tr>
+                <tr key={i}>
                     <td>{name}</td>
                     <td>{score}</td>
                     <td>{grade}</td>
