@@ -4,3 +4,9 @@ h2 {
     font-size: 24px;
     color: darkcyan;
 }
+
+@media (max-width: 600px) {
+    h2 {
+        margin-left: 5%;
+    }
+}

@@ -8,3 +8,10 @@
     margin-top: 20px;
     font-size: 18px;
 }
+
+@media (max-width: 600px) {
+    #searchBar {
+        width: 85%;
+        margin-left: 5%;
+    }
+}

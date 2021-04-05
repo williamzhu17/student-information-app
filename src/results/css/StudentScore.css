@@ -3,6 +3,12 @@ table {
     margin-left: auto;
 }
 
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
+
 th {
     padding: 20px;
     font-size: 24px;
@@ -24,10 +30,11 @@ td {
     width: fit-content;
     margin-left: 75%;
     text-decoration: underline;
+    color: blue;
     
 }
 
 .viewAllLink:hover {
     cursor: pointer;
-    color: blue;
+    color: darkblue;
 }

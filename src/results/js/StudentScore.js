@@ -24,11 +24,15 @@ function StudentScore(props) {
     return(
         <div>
             <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Score</th>
-                </tr>
-                {studentList}
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {studentList}
+                </tbody>
             </table>
             <p className="viewAllLink" onClick={handleViewAllClick}>{viewAllClicked ? "Collapse" : "View All"}</p>
         </div>

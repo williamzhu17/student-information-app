@@ -12,11 +12,12 @@ function SearchResult(props) {
         for (let j = 0; j < props.data[i].students.length; j++) {
             let name = props.data[i].students[j].name;
             let score = props.data[i].students[j].score;
+            let id = props.data[i].students[j].id;
             let grade = i + 1;
 
             studentList.push(
                 name.toLowerCase().includes(searchValue) ? 
-                <tr key={i}>
+                <tr key={id}>
                     <td>{name}</td>
                     <td>{score}</td>
                     <td>{grade}</td>
@@ -29,12 +30,16 @@ function SearchResult(props) {
         <div>
             <h2>Search Results</h2>
             <table id="searchResult">
-                <tr>
-                    <th>Name</th>
-                    <th>Score</th>
-                    <th>Grade</th>
-                </tr>
-                {studentList}
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {studentList}
+                </tbody>
             </table>
         </div>
     )
