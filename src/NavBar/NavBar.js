@@ -1,7 +1,5 @@
 import React from "react";
 import "./NavBar.css";
-import logo from "./graph-logo-39x40.png";
-import logoText from "./logo-text-179x37.png"
 
 function NavBar() {
     return(
