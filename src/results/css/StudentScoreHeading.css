@@ -1,0 +1,12 @@
+h2 {
+    width: 80%;
+    margin-left: auto;
+    font-size: 24px;
+    color: darkcyan;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        margin-left: 5%;
+    }
+}

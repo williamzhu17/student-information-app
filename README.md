@@ -1,5 +1,15 @@
-# Getting Started with Create React App
+## Table of Contents
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
+## General Info
+This project is an app to display student information (name, grade, scores). The app also gives the user the ability to search and find specific students in the list. 
+
+## Technologies
+This project was created with React 7.0.1. 
+
+## Setup
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

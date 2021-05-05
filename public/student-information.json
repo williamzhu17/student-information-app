@@ -1,0 +1,152 @@
+[
+	{
+		"grade": 1,
+		"students": [
+			{
+				"name": "Alex A", 
+				"score": "A+", 
+				"id": 1
+			}, 
+			{
+				"name": "Tom H",
+				"score": "A+", 
+				"id": 2
+			}, 
+			{
+				"name": "Brian C", 
+				"score": "A", 
+				"id": 3
+			}, 
+			{
+				"name": "Adam K", 
+				"score": "B", 
+				"id": 4
+			}, 
+			{
+				"name": "Richard D", 
+				"score": "C", 
+				"id": 5
+			}
+		]
+	}, 
+	{
+		"grade": 2, 
+		"students": [
+			{
+				"name": "Bill B", 
+				"score": "A+", 
+				"id": 6
+			}, 
+			{
+				"name": "Tom H",
+				"score": "A+", 
+				"id": 7
+			}, 
+			{
+				"name": "Brian C", 
+				"score": "A", 
+				"id": 8
+			}, 
+			{
+				"name": "Adam K", 
+				"score": "B", 
+				"id": 9
+			}, 
+			{
+				"name": "Richard D", 
+				"score": "C", 
+				"id": 10
+			}
+		]
+	}, 
+	{
+		"grade": 3, 
+		"students": [
+			{
+				"name": "Casey C", 
+				"score": "A+", 
+				"id": 11
+			}, 
+			{
+				"name": "Tom H",
+				"score": "A+", 
+				"id": 12
+			}, 
+			{
+				"name": "Brian C", 
+				"score": "A", 
+				"id": 13
+			}, 
+			{
+				"name": "Adam K", 
+				"score": "B", 
+				"id": 14
+			}, 
+			{
+				"name": "Richard D", 
+				"score": "C", 
+				"id": 15
+			}
+		]
+	}, 
+	{
+		"grade": 4, 
+		"students": [
+			{
+				"name": "Daisy D", 
+				"score": "A+", 
+				"id": 16
+			}, 
+			{
+				"name": "Tom H",
+				"score": "A+", 
+				"id": 17
+			}, 
+			{
+				"name": "Brian C", 
+				"score": "A", 
+				"id": 18
+			}, 
+			{
+				"name": "Adam K", 
+				"score": "B", 
+				"id": 19
+			}, 
+			{
+				"name": "Richard D", 
+				"score": "C", 
+				"id": 20
+			}
+		]
+	}, 
+	{
+		"grade": 5, 
+		"students": [
+			{
+				"name": "Eleanor E", 
+				"score": "A+", 
+				"id": 21
+			}, 
+			{
+				"name": "Tom H",
+				"score": "A+", 
+				"id": 22
+			}, 
+			{
+				"name": "Brian C", 
+				"score": "A", 
+				"id": 23
+			}, 
+			{
+				"name": "Adam K", 
+				"score": "B", 
+				"id": 24
+			}, 
+			{
+				"name": "Richard D", 
+				"score": "C", 
+				"id": 25
+			}
+		]
+	}
+]

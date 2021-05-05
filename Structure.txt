@@ -1,0 +1,10 @@
+index
+	App
+		NavBar
+		Results
+			SearchBar (recieves search input and determiens whether to display SearchResult or not)
+				SearchResult (displays search results)
+			Scores (contains all the components of the score list)
+				StudentScoreList (will determine grade)
+					StudentScoreHeading
+					StudentScore
